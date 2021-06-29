@@ -1,0 +1,25 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "My node demo",
+  "main": "index.js",
+  "scripts": {
+    "kaleb": "echo 'Kaleb' >> kaleb.txt",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjmatt91/tdd-strict-equal.git"
+  },
+  "author": "Kaleb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjmatt91/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/kjmatt91/tdd-strict-equal#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  }
+}
