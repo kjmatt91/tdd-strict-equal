@@ -13,3 +13,24 @@
 //     })
 //   })
 // })
+
+
+// function strictEquals(nums) {
+//   let total = 0
+
+//   for (let x = 0; x < nums.lenght; x++) {
+//     total = nums[x] + total
+//   }
+// }
+
+
+function strictEquals(num1, num2) {
+    console.log(num1.value, typeof num2)
+  
+    let num1Type = typeof num1
+    let num2Type = typeof num2
+  
+    return Number(num1) - Number(num2) = 0
+  }
+  
+  module.exports = strictEquals
