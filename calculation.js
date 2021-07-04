@@ -9,3 +9,18 @@
 // }
 
 // module.exports = sumAll
+
+
+// ***** Test Code *****
+
+// const strictEquals = (num1, num2) => {
+//   if (num1 !== num2) {
+//     return false
+//   }
+//   else {
+//     return true
+//   }
+// }
+
+// function strictEquals(num1, num2) {
+//   console.log(num1.value, typeof num2)
