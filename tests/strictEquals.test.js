@@ -1,13 +1,13 @@
-var describe = require('mocha').describe
-var it = require('mocha').it
-var expect = require('chai').expect
-var strictEquals = require('../calculation')
+let describe = require('mocha').describe
+let it = require('mocha').it
+let expect = require('chai').expect
+let strictEquals = require('../calculation')
 
 describe('calculation', () => {
   describe('strictEquals', () => {
-    it('returns true if the value is strictly equal to eachother', () => {
-      var num1 = 5
-      var num2 = 5
+    it('returns true if the values are strictly equal to eachother', () => {
+      let num1 = 5
+      let num2 = 5
 
       expect(strictEquals(num1, num2)).to.equal(true)
     })
