@@ -24,13 +24,13 @@
 // }
 
 
-function strictEquals(num1, num2) {
-    console.log(num1.value, typeof num2)
+// function strictEquals(num1, num2) {
+//     console.log(num1.value, typeof num2)
   
-    let num1Type = typeof num1
-    let num2Type = typeof num2
+//     let num1Type = typeof num1
+//     let num2Type = typeof num2
   
-    return Number(num1) - Number(num2) = 0
-  }
+//     return Number(num1) - Number(num2) = 0
+//   }
   
-  module.exports = strictEquals
+//   module.exports = strictEquals
